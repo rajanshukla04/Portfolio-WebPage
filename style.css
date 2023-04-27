@@ -36,7 +36,7 @@ img
 {
 	background-image:url('hh.jpg');
 	background-attachment: fixed;
-	
+
 }
 
 .Exp
@@ -83,4 +83,48 @@ footer
 .pr
 {
 	color:white;
+}
+.form-to-connect{
+	width: 30%;
+	padding: 20px;
+}
+.form-to-connect h2{
+	margin-left: 5%;
+}
+.form-to-connect label{
+	margin: 0;
+}
+.form-container input{
+	margin-left: 5%;
+	width: 250px;
+	/* border-radius: 20px; */
+	padding-left: 10px;
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+}
+.form-to-connect textarea{
+	width: 85%;
+	margin-top: 20px;
+	max-height: 150px;
+	min-height: 80px;
+	margin-left: 5%;
+}
+
+.form-to-connect button{
+	width: 55%;
+	margin-top: 20px;
+	height: 50px;
+	background-color: #6e6d6b;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+}
+
+.form-to-connect button:hover{
+	background-color: white;
+	color: black;
+
 }
